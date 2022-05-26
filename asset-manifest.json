@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MuiriscWebSite/static/css/main.a112c7a8.css",
+    "main.js": "/MuiriscWebSite/static/js/main.06596337.js",
+    "static/js/787.28132c4f.chunk.js": "/MuiriscWebSite/static/js/787.28132c4f.chunk.js",
+    "static/media/Screen Shot 2022-04-08 at 2.26.11 PM.png": "/MuiriscWebSite/static/media/Screen Shot 2022-04-08 at 2.26.11 PM.a00acce840c127fa3143.png",
+    "static/media/Screen Shot 2022-05-23 at 2.54.33 PM.png": "/MuiriscWebSite/static/media/Screen Shot 2022-05-23 at 2.54.33 PM.8968fb6bbad4656540a7.png",
+    "static/media/Screen Shot 2022-05-22 at 9.01.42 PM.png": "/MuiriscWebSite/static/media/Screen Shot 2022-05-22 at 9.01.42 PM.93b747334eaf7cba5a59.png",
+    "static/media/logo_everything_code.png": "/MuiriscWebSite/static/media/logo_everything_code.745e636100319ef2fb47.png",
+    "static/media/GitHubOrange.svg": "/MuiriscWebSite/static/media/GitHubOrange.a567986faf03c27b89dc72a8fd23214b.svg",
+    "static/media/GitHub_White.svg": "/MuiriscWebSite/static/media/GitHub_White.6702e44fa558d14747a435e4a4a7d10a.svg",
+    "index.html": "/MuiriscWebSite/index.html",
+    "static/media/mail-icon-white.svg": "/MuiriscWebSite/static/media/mail-icon-white.f97149dd330bb4288540c7528463fc4e.svg",
+    "static/media/linked_in.svg": "/MuiriscWebSite/static/media/linked_in.a939e8992aedcc9e75ef012cf6a7f238.svg",
+    "static/media/linkedin_white.svg": "/MuiriscWebSite/static/media/linkedin_white.df4f473101df04c13ac5537311190db5.svg",
+    "main.a112c7a8.css.map": "/MuiriscWebSite/static/css/main.a112c7a8.css.map",
+    "main.06596337.js.map": "/MuiriscWebSite/static/js/main.06596337.js.map",
+    "787.28132c4f.chunk.js.map": "/MuiriscWebSite/static/js/787.28132c4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a112c7a8.css",
+    "static/js/main.06596337.js"
+  ]
+}
