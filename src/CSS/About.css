@@ -224,7 +224,7 @@ margin: auto;
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 60em){
+/* @media only screen and (min-width: 60em){
   .aboutBlackBoard, .aboutBlackBoardBack{
     background-color: #333;
     margin-top: 10rem;
@@ -241,5 +241,5 @@ margin: auto;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-}
+  } */
+/* } */

@@ -49,7 +49,7 @@ const Gallery = () => {
     return null;
   }
   return (
-    <div className="gallery">
+    <div className="gallery" id="gallery">
       <h3 className="galleryIntroH3"> Gallery</h3>
       <div className="galleryIntro">
         <p>
@@ -58,7 +58,7 @@ const Gallery = () => {
         </p>
       </div>
       <div div className="imageCarousel">
-        <a id="gallery"></a>
+        <a ></a>
         <button onClick={previousSlide} className="arrowLeft">
           &#8249;
         </button>

@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { Route, Routes, BrowserRouter  } from 'react-router-dom';
 import About from './Components/About';
 import reportWebVitals from './reportWebVitals';
 import Navigation from "./Components/Navigation";
 import Gallery from "./Components/Gallery";
 import Footer from "./Components/Footer";
 import Skills from "./Components/Skills";
+
 
 ReactDOM.render(
   <React.StrictMode>

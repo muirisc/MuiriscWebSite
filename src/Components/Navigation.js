@@ -38,7 +38,7 @@ const Navigation = () => {
   return(
  
     <nav>
-   <div className="NavBar">
+   <div className="NavBar" id="Nav">
    {nav ? <div className="burger-container">
     <div className= "burger-box" onClick={navActive}>
     <span></span>
@@ -49,10 +49,10 @@ const Navigation = () => {
   : <a className="burger-X"><Clear onClick={navActive} ></Clear></a> 
   }
       <ul>
-        <li><a id="NavBar"href="/">Home</a></li>
-        <li><a href="About">About</a></li>
-        <li><a id="gallery"href="#gallery">Work</a></li>
-        <li><a href="/Contact">Contact</a></li>
+        <li><a id="NavBar"href="#Nav">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#gallery">Work</a></li>
+        {/* <li><a href="#Contact">Contact</a></li> */}
       </ul>
       <div className="socialMedia">
       <a href="https://github.com/muirisc" rel="noreferrer" target="_blank"><img src={git} href="https://github.com/muirisc" alt="GitHub Logo" onMouseOver={()=>setGit(`${GitHubW}`)} onMouseOut={()=>setGit(`${GitHubO}`)}/></a>
