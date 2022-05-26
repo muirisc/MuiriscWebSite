@@ -49,7 +49,7 @@ const Navigation = () => {
   : <a className="burger-X"><Clear onClick={navActive} ></Clear></a> 
   }
       <ul>
-        <li><a id="NavBar"href="#Nav">Home</a></li>
+        <li><a href="#Nav">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#gallery">Work</a></li>
         {/* <li><a href="#Contact">Contact</a></li> */}
