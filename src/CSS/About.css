@@ -226,6 +226,7 @@ height: 75px;
     height: 100%;
     float: left;
     width: auto;
+    margin-left: 2rem;
   }
   /* .skillBoxes li{
     margin: .4rem;

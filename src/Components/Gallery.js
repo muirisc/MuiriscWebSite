@@ -26,7 +26,7 @@ const Gallery = () => {
     {
       name: "Silverline Tattoo & Body Piercing",
       image: `${Silverline}`,
-      description: "Created website for leading tattoo shop in Ottawa, Ontario. Increased SEO."
+      description: "A business website for a leading tattoo shop in Ottawa, Ontario. Website includes gallery of tattoos and piercing work. Site has increased SEO for business."
     }
   ];
   const length = imageBank.length;

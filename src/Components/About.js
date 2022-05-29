@@ -30,7 +30,7 @@ setActive(!active)
 
       <div className="aboutBlackBoard">
         <h3>Welcome!</h3>
-        <p>I am Michael Vanaman and this is my website. I am a software engineer and writer. My passion is finding unique solutions to problems and breaking down complicated subject matter into more easily understandable forms. I love coding, front-end design, and how the tech industry is constantly evolving. Flip this card for my contact info! </p>
+        <p>I am Michael Vanaman and this is my website. I am a software engineer and writer. My passion is finding unique solutions to problems and breaking down complicated subject matter into more easily understandable forms. I love coding, front-end design, and how the tech industry is constantly evolving. Flip this card for more info! </p>
     </div>
 
     <div className="aboutBlackBoardBack">
