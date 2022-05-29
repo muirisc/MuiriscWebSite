@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MuiriscWebSite/static/css/main.376780db.css",
-    "main.js": "/MuiriscWebSite/static/js/main.eba980b7.js",
+    "main.css": "/MuiriscWebSite/static/css/main.b56517aa.css",
+    "main.js": "/MuiriscWebSite/static/js/main.2c67a042.js",
     "static/js/787.28132c4f.chunk.js": "/MuiriscWebSite/static/js/787.28132c4f.chunk.js",
     "static/media/Screen Shot 2022-04-08 at 2.26.11 PM.png": "/MuiriscWebSite/static/media/Screen Shot 2022-04-08 at 2.26.11 PM.a00acce840c127fa3143.png",
     "static/media/Screen Shot 2022-05-23 at 2.54.33 PM.png": "/MuiriscWebSite/static/media/Screen Shot 2022-05-23 at 2.54.33 PM.8968fb6bbad4656540a7.png",
@@ -13,12 +13,12 @@
     "static/media/mail-icon-white.svg": "/MuiriscWebSite/static/media/mail-icon-white.f97149dd330bb4288540c7528463fc4e.svg",
     "static/media/linked_in.svg": "/MuiriscWebSite/static/media/linked_in.a939e8992aedcc9e75ef012cf6a7f238.svg",
     "static/media/linkedin_white.svg": "/MuiriscWebSite/static/media/linkedin_white.df4f473101df04c13ac5537311190db5.svg",
-    "main.376780db.css.map": "/MuiriscWebSite/static/css/main.376780db.css.map",
-    "main.eba980b7.js.map": "/MuiriscWebSite/static/js/main.eba980b7.js.map",
+    "main.b56517aa.css.map": "/MuiriscWebSite/static/css/main.b56517aa.css.map",
+    "main.2c67a042.js.map": "/MuiriscWebSite/static/js/main.2c67a042.js.map",
     "787.28132c4f.chunk.js.map": "/MuiriscWebSite/static/js/787.28132c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.376780db.css",
-    "static/js/main.eba980b7.js"
+    "static/css/main.b56517aa.css",
+    "static/js/main.2c67a042.js"
   ]
 }
