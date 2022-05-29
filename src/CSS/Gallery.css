@@ -1,6 +1,6 @@
 .gallery{
   margin-bottom: 13rem;
-
+max-width: 1800px;
 }
 
 .galleryIntroH3{
@@ -10,6 +10,7 @@
   font-family: 'Grape Nuts', cursive;
   background-color: rgb(249, 238, 214);
   padding: 2rem;
+  /* width: 100vh; */
 }
 .gallery h3{
   font-size: 45px;
@@ -18,6 +19,7 @@
   font-family: 'Grape Nuts', cursive;
   /* padding: 2rem; */
   margin-bottom: 0rem;
+  /* width: 100vh; */
 }
 
 .projectName{
@@ -41,26 +43,32 @@ margin-bottom: 0rem;
 font-size: 20px;
 color: #da6c1a;
 padding-bottom: 1rem;
+max-width: 200vh;
 }
 
 .imageCarousel{
   position: relative;
-  height: 80vh;
-  display: flex;
+  /* height: 70vh; */
+  /* display: flex; */
   justify-content: center;
 padding-top: 0rem;
 }
+.galleryObj{
+  height: 500px;
+  width:inherit;
+  
+}
 
 .image{
-height: 85%;
+height: 100%;
 width: inherit;
 border-radius: 5px;
 align-content: center;
-/* margin: auto; */
 margin-top: 5rem;
 display: block;
 margin-left: auto;
 margin-right: auto;
+object-fit: contain;
 }
 
 .arrowLeft{
@@ -110,7 +118,12 @@ h4{
   font-size: 20px; 
 }
 
+@media all and (max-width: 750px){
+  .slideActive{
+    max-width: 750px;
+  }
 
+}
 @media all and (max-width: 1000px) {
   .galleryIntroH3{
     font-size: 30px;
@@ -118,17 +131,7 @@ h4{
   .projectName{
     font-size: 30px;
   }
-  .image{
-    height: 35%;
-    width: inherit;
-    border-radius: 5px;
-    align-content: center;
-    /* margin: auto; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
-    }
     .arrowLeft{
       position: absolute;
       height: 4rem;
@@ -148,15 +151,12 @@ h4{
       background-color: #da6c1a;
     }
 
+    .slideActive{
+      max-width: 1000px;
+    }
   }
   @media all and (max-width: 1305px) {
-    .image{
-      height: 50%;
-      width: inherit;
-      border-radius: 5px;
-      align-content: center;
-      margin: auto;
-      }
+
       .arrowLeft{
         position: absolute;
         height: 4rem;

@@ -1,18 +1,7 @@
-/* .aboutBlackBoard{
-  background-color: #333;
-  font-family: 'Grape Nuts', cursive;
-  max-width: 50rem;
-  text-align: center;
-  margin: auto;
-  border-radius: 5px;
-  border: solid white;
-  margin-top: 1rem;
-} */
-
 
 .about{
-  background-color: rgb(249, 238, 214);
-  height: 500px
+  /* background-color: rgb(249, 238, 214); */
+  /* min-height: 500px */
 }
 .aboutBlackBoard h3{
   color: white;
@@ -21,16 +10,17 @@
 }
 .aboutBlackBoard p{
   color: white;
-  font-size: 20px;
+  font-size: 2vh;
   text-align: center;
 }
 
 .flip-card{
   background-color: transparent;
-  width: 600px;
+  max-width: 600px;
   height: 300px;
   perspective: 1000px;
   margin: auto;
+  margin-bottom: 10rem;
 }
 /* .flip-card:active .flip-card-inner{
 transform: rotateY(180deg);
@@ -68,6 +58,7 @@ justify-content: center;
   background-color: #333;
   margin-top: 10rem;
   font-family: 'Quicksand', sans-serif;
+  font-size: clamp(2rem, 1rem + 10vh, 4rem);
   max-width: 50rem;
   padding: 1rem;
   text-align: center;
@@ -77,7 +68,6 @@ justify-content: center;
   margin-top: 7rem;
   position: absolute;
   width: 100%;
-  height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -94,7 +84,7 @@ justify-content: center;
   width: 33.3%;
   text-align: center;
   margin: auto;
-  font-size: 26px;
+  font-size: clamp(14px, 1px + 10vw, 26px)
 }
 
 .aboutBlackBoardBack a{
@@ -102,13 +92,21 @@ color:#fff;
 text-decoration: none;
 
 }
-.aboutBlackBoardBack a p{
+.aboutBlackBoardBack p{
   text-align: center;
+  margin-left: .7rem;
+  font-size: 20px;
+}
+.aboutBlackBoardBack .BlackBoardEmail{
+  margin-left: 1.3rem;
+  /* color: #da6c1a; */
+  /* background-color: blue; */
 }
 .aboutBlackBoardBack div a img{
   align-content: center;
   margin: auto;
   height: 100px;
+  padding-bottom: 1rem;
 }
 .imageCarousel p{
   color: #fff;
@@ -144,19 +142,19 @@ margin: auto;
   grid-template-columns: 1fr 1fr;
 margin: auto;
   padding: 0rem;
-  max-height: 700px;
-}
+  max-height: 500px;
+} 
 
 .skillList div{
  
 }
 .skillList li{
-  margin: .2rem;
+  margin: .5rem;
   list-style: none;
-  font-size: 22px;
-  padding: .75rem;
-  height: 20px;
-  width: 300px;
+  font-size: 21px;
+  padding: .3rem 0rem .3rem 0rem;
+  max-height: 20px;
+  max-width: 300px;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
@@ -170,7 +168,7 @@ margin: auto;
   /* text-decoration: underline; */
 }
 .logos{
-  height: 45%;
+  height: 100%;
   width: auto;
   float: right;
 }
@@ -180,9 +178,23 @@ margin: auto;
   grid-template-columns: 1fr 1fr;
 }
 
+.skillBoxes div{
+  max-height: 1300px;
+}
+.divLogos{
+max-height: 500px;
+}
 
+@media only screen and (max-width: 465px){
+  /* .aboutBlackBoard p{
+    font-size: 50vw;
+  } */
+  .aboutBlackBoardBack div a img{
+height: 75px;
+  }
+}
 
-@media only screen and (max-width: 680px){
+@media only screen and (max-width: 1000px){
   .aboutBlackBoard, .aboutBlackBoardBack{
     background-color: #333;
     margin-top: 10rem;
@@ -199,6 +211,37 @@ margin: auto;
     height: 70%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+  }
+
+ 
+  .skillList div{
+    max-width: 260px;
+    max-height: 500px;
+    padding: 0px;
+  }
+  .skillList ul{
+    margin-left: 0rem;
+  }
+  .logos{
+    height: 100%;
+    float: left;
+    width: auto;
+  }
+  /* .skillBoxes li{
+    margin: .4rem;
+    list-style: none;
+    font-size: 14px;
+    padding: .5rem 0rem .5rem 0rem;
+    max-height: 20px;
+    max-width: 300px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    float: left;
+  } */
+  .skillBoxes ul{
+    padding: 0rem;
+    margin: 0rem;
   }
 }
 @media only screen and (max-width: 750px){
@@ -219,10 +262,10 @@ margin: auto;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  .aboutBlackBoard p{
+  /* .aboutBlackBoard p{
     color: white;
     font-size: 15px;
-  }
+  } */
 }
 /* @media only screen and (min-width: 60em){
   .aboutBlackBoard, .aboutBlackBoardBack{

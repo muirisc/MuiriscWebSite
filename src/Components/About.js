@@ -30,21 +30,21 @@ setActive(!active)
 
       <div className="aboutBlackBoard">
         <h3>Welcome!</h3>
-        <p>I am Michael Vanaman and this is my website. I am a software engineer and writer. My passion is finding unique solutions to problems and breaking down complicated subject matter into more easily understandable forms. I love coding, front-end design, and how the tech industry is constantly evolving.</p>
-        <p>Flip this card for my contact info! </p>
+        <p>I am Michael Vanaman and this is my website. I am a software engineer and writer. My passion is finding unique solutions to problems and breaking down complicated subject matter into more easily understandable forms. I love coding, front-end design, and how the tech industry is constantly evolving. Flip this card for my contact info! </p>
     </div>
 
     <div className="aboutBlackBoardBack">
       <div>
-        <a href="https://www.linkedin.com/in/michael-vanaman/" rel="noreferrer" target="_blank"><img src={linkedIn} alt="LinkedIn Logo" onMouseOver={()=>setLinkedIn(`${LinkedInO}`)} onMouseLeave={()=>setLinkedIn(`${LinkedInW}`)}/>
-        <p>LinkedIn</p></a>
+        <a href="https://www.linkedin.com/in/michael-vanaman/" rel="noreferrer" target="_blank"><img src={linkedIn} alt="LinkedIn Logo" onMouseOver={()=>setLinkedIn(`${LinkedInO}`)} onMouseLeave={()=>setLinkedIn(`${LinkedInW}`)}/></a>
+        <p>LinkedIn</p>
         </div>
         <div>
-        <a href="https://github.com/muirisc" rel="noreferrer" target="_blank"><img src={git} href="https://github.com/muirisc" alt="GitHub Logo" onMouseOver={()=>setGit(`${GitHubO}`)} onMouseOut={()=>setGit(`${GitHubW}`)}/>
-          <p>Github</p></a>
+        <a href="https://github.com/muirisc" rel="noreferrer" target="_blank"><img src={git} href="https://github.com/muirisc" alt="GitHub Logo" onMouseOver={()=>setGit(`${GitHubO}`)} onMouseOut={()=>setGit(`${GitHubW}`)}/></a>
+        <p>GitHub</p>
           </div>
           <div>
-            <a href="mailto:muirisc07@gmail.com"><img src={Mail} alt="mail icon" /><p>Email</p></a>
+            <a href="mailto:muirisc07@gmail.com"><img src={Mail} alt="mail icon" /></a>
+            <p className="BlackBoardEmail">Email</p>
             </div>
     </div>
 </div>

@@ -58,7 +58,6 @@ const Gallery = () => {
         </p>
       </div>
       <div div className="imageCarousel">
-        <a ></a>
         <button onClick={previousSlide} className="arrowLeft">
           &#8249;
         </button>
@@ -69,7 +68,7 @@ const Gallery = () => {
               key={index}
             >
               {index === currentImages && (
-                <>
+                <div className ="galleryObj">
                   <h3 className="projectName">{image.name}</h3>
                   <img
                     src={image.image}
@@ -78,7 +77,7 @@ const Gallery = () => {
                   />
                   <h4>{image.stack}</h4>
                   <p className="galleryDescrip">{image.description}</p>
-                </>
+                </div>
               )}
             </div>
           );

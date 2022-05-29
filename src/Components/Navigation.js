@@ -48,33 +48,28 @@ const Navigation = () => {
   </div> 
   : <a className="burger-X"><Clear onClick={navActive} ></Clear></a> 
   }
-      <ul>
+  {nav  ?       <ul className="classicNav">
         <li><a href="#Nav">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#gallery">Work</a></li>
-        {/* <li><a href="#Contact">Contact</a></li> */}
+      </ul> : 
+<div className="smallNav">
+<ul className="dropwdown">
+  <div className="dropdown-content">
+  <li><a href="#Nav">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#gallery">Work</a></li>
+        </div>
       </ul>
+  </div>}
+
       <div className="socialMedia">
       <a href="https://github.com/muirisc" rel="noreferrer" target="_blank"><img src={git} href="https://github.com/muirisc" alt="GitHub Logo" onMouseOver={()=>setGit(`${GitHubW}`)} onMouseOut={()=>setGit(`${GitHubO}`)}/></a>
       <a href="https://www.linkedin.com/in/michael-vanaman/" rel="noreferrer" target="_blank"><img src={linkedIn} alt="LinkedIn Logo" onMouseOver={()=>setLinkedIn(`${LinkedInW}`)} onMouseLeave={()=>setLinkedIn(`${LinkedInO}`)}/></a>
       <a href="mailto:muirisc07@gmail.com"><Email  style={{color: `${mail}`}} onMouseEnter={mailColor} onMouseLeave={mailBack} ></Email></a>
-      <a href="https://docs.google.com/document/d/1zvg8ddl1lz2QW0hsqdo-kL_Vlpo3rS2R/edit?usp=sharing&ouid=106939024295929421039&rtpof=true&sd=true"><RecentActors style={{color: `${resume}`}} onMouseEnter={resumeColor} onMouseLeave={resumeBack}></RecentActors></a>
+      <a href="https://app.luminpdf.com/viewer/628fd28db3f59ff19b895439"><RecentActors style={{color: `${resume}`}} onMouseEnter={resumeColor} onMouseLeave={resumeBack}></RecentActors></a>
       </div>
       </div>
-      <div className="sideBar">
-      {/* <a href="/">
-        <span role="img" aria-label="about us">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
-        About us
-      </a>
-      <a href="/">
-        <span role="img" aria-label="price">&#x1f4b8;</span>
-        Pricing
-        </a>
-      <a href="/">
-        <span role="img" aria-label="contact">&#x1f4e9;</span>
-        Contact
-        </a> */}
-    </div>
     </nav>
   )
 }

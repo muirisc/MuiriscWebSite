@@ -78,6 +78,7 @@ nav ul li a::after{
   transition: 0.5s;
 }
 
+
 .burger-box{
   display: none;
 }
@@ -88,13 +89,14 @@ nav ul li a::after{
 nav ul li a:hover::after{
 width: 100%;
 }
+
 @media only screen and (max-width: 937px){
   .burger-box{
     cursor: pointer;
     display:initial;
     /* height: 200px; */
     margin-top: 5px;
-    margin-right: 20px;
+    margin-right: 50px;
   }
   .burger-X{
     color: #da6c1a;
@@ -112,21 +114,40 @@ width: 100%;
       transform-origin: 1px;
   }
 
-  nav ul li a{
+  .classicNav li{
     display: none;
-
-  }
-  nav ul li{
+    /* background-color: aqua; */
     margin: 0;
-padding: 0;
+    padding: 0;
   }
 
 }
-/* @media only screen and (mind-width: 38em){
 
+
+.smallNav {
+  /* overflow: hidden; */
+  font-family: 'Quicksand', sans-serif;
+  color: #da6c1a;
+  position: relative;
 }
-@media only screen and (mind-width: 60em){
 
-} */
+/* Links inside the smallNav */
+.smallNav a {
+  float: right;
+  font-size: 16px;
+  color: #da6c1a;
+  margin: 0rem;
+  padding: 0rem;
+  text-decoration: none;
+  z-index: 1;
+}
+.smallNav li{
+  margin: 0rem;
+  padding: 0rem 1rem 0rem 0rem;
+  /* position: absolute; */
+  z-index: 1;
+  float: right;
+}
+
 
 
