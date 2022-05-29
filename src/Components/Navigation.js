@@ -50,14 +50,14 @@ const Navigation = () => {
   }
   {nav  ?       <ul className="classicNav">
         <li><a href="#Nav">Home</a></li>
-        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
         <li><a href="#gallery">Work</a></li>
       </ul> : 
 <div className="smallNav">
 <ul className="dropwdown">
   <div className="dropdown-content">
   <li><a href="#Nav">Home</a></li>
-        <li><a href="#About">About</a></li>
+  <li><a href="#Skills">Skills</a></li>
         <li><a href="#gallery">Work</a></li>
         </div>
       </ul>

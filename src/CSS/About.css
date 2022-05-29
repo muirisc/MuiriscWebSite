@@ -1,7 +1,9 @@
 
 .about{
-  /* background-color: rgb(249, 238, 214); */
+  background-color: rgb(249, 238, 214);
   /* min-height: 500px */
+  padding-bottom: 1.5rem;
+
 }
 .aboutBlackBoard h3{
   color: white;
