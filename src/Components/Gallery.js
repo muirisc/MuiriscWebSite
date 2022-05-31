@@ -50,12 +50,13 @@ const Gallery = () => {
   }
   return (
     <div className="gallery" id="gallery">
-      <h3 className="galleryIntroH3"> Gallery</h3>
       <div className="galleryIntro">
+      <h3 className="galleryIntroH3"> Gallery</h3>
         <p>
           Below are just some of the projects I have created. Feel free to
           browse. Comments and suggestions are welcome!
         </p>
+        
       </div>
       <div div className="imageCarousel">
         <button onClick={previousSlide} className="arrowLeft">

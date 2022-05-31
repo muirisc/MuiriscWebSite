@@ -201,6 +201,7 @@ height: 75px;
     background-color: #333;
     margin-top: 10rem;
     font-family: 'Quicksand', sans-serif;
+    /* font-size: 1rem; */
     max-width: 30rem;
     padding: 1rem;
     text-align: center;
@@ -209,12 +210,19 @@ height: 75px;
     border: solid rgb(169, 93, 1);
     margin-top: 7rem;
     position: absolute;
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-
+  .aboutBlackBoard p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* .aboutBlackBoard p{
+    font-size: 16px;
+    line-height: 18px;
+  } */
  
   .skillList div{
     max-width: 260px;
@@ -264,6 +272,10 @@ height: 75px;
     height: 80%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+  }
+  .aboutBlackBoard p{
+    font-size: 12px;
+    line-height: 16px;
   }
   /* .aboutBlackBoard p{
     color: white;
