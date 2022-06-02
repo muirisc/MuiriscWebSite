@@ -8,6 +8,7 @@
 .aboutBlackBoard h3{
   color: white;
   font-size: 32px;
+  line-height: 36px;
   text-align: center;
 }
 .aboutBlackBoard p{
@@ -62,6 +63,7 @@ justify-content: center;
   font-family: 'Quicksand', sans-serif;
   font-size: clamp(2rem, 1rem + 10vh, 4rem);
   max-width: 50rem;
+  max-height: inherit;
   padding: 1rem;
   text-align: center;
   margin: auto;
@@ -109,6 +111,9 @@ text-decoration: none;
   margin: auto;
   height: 100px;
   padding-bottom: 1rem;
+}
+.aboutBlackBoardBack div:hover p{
+  color: #da6c1a;
 }
 .imageCarousel p{
   color: #fff;
@@ -162,12 +167,7 @@ margin: auto;
   font-weight: 700;
 }
 .skillList li:hover{
-  /* background-color: rgb(223, 223, 223) ;
-  color: #333; */
-  /* border: 1px solid #282c34;
-  height: 25px; */
   color: #da6c1a;
-  /* text-decoration: underline; */
 }
 .logos{
   height: 100%;

@@ -1,8 +1,8 @@
 import "../CSS/Gallery.css";
 import { useState } from "react";
-import ClicknPlay from "../Screen Shot 2022-04-08 at 2.26.11 PM.png";
-import WallStreet from "../Screen Shot 2022-05-23 at 2.54.33 PM.png";
-import Silverline from "../Screen Shot 2022-05-22 at 9.01.42 PM.png";
+import ClicknPlay from "../Click&PlayProject.png";
+import WallStreet from "../SimulatedWalkProject.png";
+import Silverline from "../SilverlineProject.png";
 
 
 const Gallery = () => {
@@ -12,14 +12,14 @@ const Gallery = () => {
     {
       name: "A Simulated Walk Down Wallstreet",
       image: `${WallStreet}`,
-      stack: "React & Ruby on Rails",
+      // stack: "React & Ruby on Rails",
       description:
         "A Stock Game where Users can purchase and sell stocks at randomly changing prices. The app also includes a daily quiz and basic information regarding the Stock Market.",
     },
     {
       name: "Click & Play",
       image: `${ClicknPlay}`,
-      stack: "React & Sinatra",
+      // stack: "React & Sinatra",
       description:
         "A database to look up games and see on what platforms they may be played along with reviews and a brief description. The site includes a filter and allows the user to post their own games to the databse.",
     },

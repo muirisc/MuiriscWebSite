@@ -16,6 +16,7 @@ code {
 .contentContainer{
   position: relative;
   min-height: 100vh;
+  /* margin-bottom: 0rem; */
   /* padding-bottom: 1.5rem; */
   
 }

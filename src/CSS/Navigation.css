@@ -2,10 +2,15 @@
 nav{
   /* border-bottom: 2px solid #ff8c00; */
   /* background-color: azure; */
-  height: 2.2rem;
+  /* height: 2.2rem; */
   margin-top: 0rem;
   /* float: right; */
   
+}
+nav::after{
+  content: '';
+  display: table;
+  clear: both;
 }
 nav li{
   list-style: none;
