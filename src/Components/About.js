@@ -5,6 +5,7 @@ import GitHubW from "../GitHub_White.svg"
 import LinkedInO from "../linked_in.svg"
 import LinkedInW from "../linkedin_white.svg";
 import Mail from "../mail-icon-white.svg";
+import MailOrange from "../mail-icon-orange.svg";
 
 
 
@@ -12,6 +13,7 @@ const About = () => {
 const [card, setCard] = useState(true)
 const[git, setGit] = useState(`${GitHubW}`)
 const[linkedIn, setLinkedIn] = useState(`${LinkedInW}`)
+const [mail, setMail] = useState(`${Mail}`)
 const[active, setActive] = useState(false)
 
 const manageCard = () =>{
@@ -43,7 +45,8 @@ setActive(!active)
         <p>GitHub</p>
           </div>
           <div>
-            <a href="mailto:muirisc07@gmail.com"><img src={Mail} alt="mail icon" /></a>
+          
+            <a href="mailto:muirisc07@gmail.com" rel="noreferrer" target="_blank"><img src={mail} alt="Mail Logo" onMouseOver={()=>setMail(`${MailOrange}`)} onMouseOut={()=>setMail(`${Mail}`)}/></a>
             <p className="BlackBoardEmail">Email</p>
             </div>
     </div>
