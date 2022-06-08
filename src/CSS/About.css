@@ -78,6 +78,11 @@ justify-content: center;
 
 .aboutBlackBoard h3{
   font-family: 'Grape Nuts', cursive;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .aboutBlackBoardBack{
@@ -307,7 +312,7 @@ height: 75px;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 20em;}
+  to{width: 100%;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}

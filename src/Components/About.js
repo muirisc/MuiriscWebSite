@@ -14,16 +14,11 @@ const [card, setCard] = useState(true)
 const[git, setGit] = useState(`${GitHubW}`)
 const[linkedIn, setLinkedIn] = useState(`${LinkedInW}`)
 const [mail, setMail] = useState(`${Mail}`)
-const[active, setActive] = useState(false)
+
 
 const manageCard = () =>{
   setCard(!card)
 }
-const setColor=()=>{
-setActive(!active)
-}
-
-
 
   return(
     <section className="about" id="About">
