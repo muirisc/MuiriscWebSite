@@ -4,8 +4,8 @@ import GitHubO from "../GitHubOrange.svg";
 import GitHubW from "../GitHub_White.svg"
 import LinkedInO from "../linked_in.svg"
 import LinkedInW from "../linkedin_white.svg";
-import Mail from "../mail-icon-white.svg";
-import MailOrange from "../mail-icon-orange.svg";
+import Mail from "../email-black.svg";
+import MailOrange from "../email-orange.svg";
 
 
 
@@ -31,7 +31,7 @@ setActive(!active)
   <div className={card ? "flip-card-inner" : "flipped-card-inner"} onClick={manageCard}> 
 
       <div className="aboutBlackBoard">
-        <h3>Welcome!</h3>
+        <h3 className="anim-typewriter">Welcome!</h3>
         <p>I am Michael Vanaman and this is my website. I am a software engineer and writer. My passion is finding unique solutions to problems and breaking down complicated subject matter into more easily understandable forms. I love coding, front-end design, and how the tech industry is constantly evolving. Flip this card for more info! </p>
     </div>
 
