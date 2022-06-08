@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MuiriscWebSite/static/css/main.dc868816.css",
-    "main.js": "/MuiriscWebSite/static/js/main.1d2ebc8a.js",
+    "main.css": "/MuiriscWebSite/static/css/main.573b54a1.css",
+    "main.js": "/MuiriscWebSite/static/js/main.1d033153.js",
     "static/js/787.28132c4f.chunk.js": "/MuiriscWebSite/static/js/787.28132c4f.chunk.js",
     "static/media/Click&PlayProject.png": "/MuiriscWebSite/static/media/Click&PlayProject.1e054a11d8d3e47cc412.png",
     "static/media/SilverlineProject.png": "/MuiriscWebSite/static/media/SilverlineProject.f4260dd63c026709d76b.png",
@@ -10,15 +10,16 @@
     "static/media/GitHubOrange.svg": "/MuiriscWebSite/static/media/GitHubOrange.a567986faf03c27b89dc72a8fd23214b.svg",
     "static/media/GitHub_White.svg": "/MuiriscWebSite/static/media/GitHub_White.6702e44fa558d14747a435e4a4a7d10a.svg",
     "index.html": "/MuiriscWebSite/index.html",
-    "static/media/mail-icon-white.svg": "/MuiriscWebSite/static/media/mail-icon-white.f97149dd330bb4288540c7528463fc4e.svg",
+    "static/media/email-black.svg": "/MuiriscWebSite/static/media/email-black.6e38f25e7b01e52bf42e7ce39be5f46c.svg",
+    "static/media/email-orange.svg": "/MuiriscWebSite/static/media/email-orange.12dc41d435c146d030d4ab2a7fac86e3.svg",
     "static/media/linked_in.svg": "/MuiriscWebSite/static/media/linked_in.a939e8992aedcc9e75ef012cf6a7f238.svg",
     "static/media/linkedin_white.svg": "/MuiriscWebSite/static/media/linkedin_white.df4f473101df04c13ac5537311190db5.svg",
-    "main.dc868816.css.map": "/MuiriscWebSite/static/css/main.dc868816.css.map",
-    "main.1d2ebc8a.js.map": "/MuiriscWebSite/static/js/main.1d2ebc8a.js.map",
+    "main.573b54a1.css.map": "/MuiriscWebSite/static/css/main.573b54a1.css.map",
+    "main.1d033153.js.map": "/MuiriscWebSite/static/js/main.1d033153.js.map",
     "787.28132c4f.chunk.js.map": "/MuiriscWebSite/static/js/787.28132c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc868816.css",
-    "static/js/main.1d2ebc8a.js"
+    "static/css/main.573b54a1.css",
+    "static/js/main.1d033153.js"
   ]
 }
