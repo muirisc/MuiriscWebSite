@@ -4,7 +4,6 @@ import ClicknPlay from "../Click&PlayProject.png";
 import WallStreet from "../SimulatedWalkProject.png";
 import Silverline from "../SilverlineProject.png";
 
-
 const Gallery = () => {
   const [currentImages, setCurrentImages] = useState(0);
 
@@ -26,8 +25,9 @@ const Gallery = () => {
     {
       name: "Silverline Tattoo & Body Piercing",
       image: `${Silverline}`,
-      description: "A business website for a leading tattoo shop in Ottawa, Ontario. Website includes gallery of tattoos and piercing work. Site has increased SEO for business."
-    }
+      description:
+        "A business website for a leading tattoo shop in Ottawa, Ontario. Website includes gallery of tattoos and piercing work. Site has increased SEO for business.",
+    },
   ];
   const length = imageBank.length;
 
@@ -51,12 +51,11 @@ const Gallery = () => {
   return (
     <div className="gallery" id="gallery">
       <div className="galleryIntro">
-      <h3 className="galleryIntroH3"> Gallery</h3>
+        <h3 className="galleryIntroH3"> Gallery</h3>
         <p>
           Below are just some of the projects I have created. Feel free to
           browse. Comments and suggestions are welcome!
         </p>
-        
       </div>
       <div div className="imageCarousel">
         <button onClick={previousSlide} className="arrowLeft">
@@ -69,7 +68,7 @@ const Gallery = () => {
               key={index}
             >
               {index === currentImages && (
-                <div className ="galleryObj">
+                <div className="galleryObj">
                   <h3 className="projectName">{image.name}</h3>
                   <img
                     src={image.image}

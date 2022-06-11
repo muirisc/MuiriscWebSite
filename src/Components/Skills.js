@@ -5,7 +5,7 @@ const Skills = () => {
   const [active, setActive] = useState(false);
 
   return (
-    <div id="Skills"className="skills">
+    <div id="Skills" className="skills">
       <h3> Skills</h3>
       <div className="skillList">
         <div className="divLogos">
